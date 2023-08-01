@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "helloworld"
+version = "0.1.0"
+description = "Hello World FastAPI example"
+authors = ["FastDeploy Team <hi@fastdeploy.cloud>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
