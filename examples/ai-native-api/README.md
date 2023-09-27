@@ -1,6 +1,12 @@
 # FastAPI Hello World Example
 This directory is a brief example of a FastAPI app that can be deployed to DeployPlex with zero configuration.
 
+<a href="https://deployplex.com" target="_blank" rel="noopener noreferrer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://deployplex.com/badge.png">
+  <img alt="Deploy on DeployPlex button" src="https://deployplex.com/badge.png"/>
+</picture>
+</a>
 
 ## Getting started
 
@@ -17,6 +23,3 @@ docker compose up
 
 ### Populate the .env file with your OpenAI API Key
 You can get your API Key from here: https://platform.openai.com/account/api-keys
-
-
-### Zero-config on DeployPlex
