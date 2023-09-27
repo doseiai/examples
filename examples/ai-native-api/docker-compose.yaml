@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  chromadb:
+    container_name: chromadb
+    restart: always
+    image: chromadb/chroma:0.4.13
+    volumes:
+      - ./data/chromadb:/chroma/chroma
+    ports:
+      - '8081:8000'
