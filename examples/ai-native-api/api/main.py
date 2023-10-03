@@ -1,3 +1,4 @@
+import base64
 import os
 from tempfile import NamedTemporaryFile
 
@@ -16,7 +17,21 @@ from langchain.docstore.document import Document
 load_dotenv()
 app = FastAPI()
 
-chroma_client = chromadb.HttpClient(host="localhost", port="8081")
+
+def string_to_base64(s):
+    return base64.b64encode(s.encode()).decode()
+
+
+user_password_base64 = string_to_base64(f"{os.getenv('CHROMA_SERVER_USERNAME')}:{os.getenv('CHROMA_SERVER_PASSWORD')}")
+
+chroma_client = chromadb.HttpClient(
+    host=os.getenv('CHROMA_SERVER_HOST'),
+    port="80",
+    ssl=False,
+    headers={
+        "Authorization": f"Basic {user_password_base64}"
+    }
+)
 
 
 @app.put("/ingest")
