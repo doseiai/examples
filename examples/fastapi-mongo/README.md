@@ -18,9 +18,7 @@ poetry install
 ```
 
 ### Populate the .env file with your MongoDB URL.
-We recommend [MongoDB Atlas](https://www.mongodb.com/atlas/database).
-
-Their free tier includes:
+We recommend [MongoDB Atlas](https://www.mongodb.com/atlas/database). Their free tier includes:
 - 512MB to 5GB of storage
 - Shared RAM
 - No credit card required to start
