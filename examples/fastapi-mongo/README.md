@@ -1,7 +1,7 @@
 # FastAPI with MongoDB Example
 This directory is a brief example of a FastAPI app with MongoDB that can be deployed to DeployPlex with zero configuration.
 
-<a href="https://deployplex.com/new/clone?source_full_name=deployplex/deployplex&path=examples/fastapi-mongo&branch=main" target="_blank" rel="noopener noreferrer">
+<a href="https://deployplex.com/new/clone?source_full_name=deployplex/deployplex&path=examples/fastapi-mongo&branch=main&env=MONGODB_URL" target="_blank" rel="noopener noreferrer">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://deployplex.com/badge.png">
   <img height="50px" alt="Deploy on DeployPlex button" src="https://deployplex.com/badge.png"/>
