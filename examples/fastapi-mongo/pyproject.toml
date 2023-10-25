@@ -1,14 +1,17 @@
 [tool.poetry]
-name = "helloworld"
+name = "fastapi-mongo"
 version = "0.1.0"
 description = "Hello World FastAPI example"
 authors = ["DeployPlex Team <hi@deployplex.com>"]
 readme = "README.md"
+packages = [{include = "fastapi_mongo"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = "^0.100.1"
+fastapi = "^0.104.0"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
+python-dotenv = "^1.0.0"
+motor = "^3.3.1"
 
 
 [build-system]
