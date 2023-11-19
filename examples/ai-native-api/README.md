@@ -1,10 +1,10 @@
 # FastAPI Hello World Example
-This directory is a brief example of a FastAPI app that can be deployed to DeployPlex with zero configuration.
+This directory is a brief example of a FastAPI app that can be deployed to Dosei with zero configuration.
 
-<a href="https://deployplex.com" target="_blank" rel="noopener noreferrer">
+<a href="https://dosei.ai" target="_blank" rel="noopener noreferrer">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://deployplex.com/badge.png">
-  <img height="50px" alt="Deploy on DeployPlex button" src="https://deployplex.com/badge.png"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://dosei.ai/badge.png">
+  <img height="50px" alt="Deploy on Dosei button" src="https://dosei.ai/badge.png"/>
 </picture>
 </a>
 

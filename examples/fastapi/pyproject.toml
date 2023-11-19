@@ -2,7 +2,7 @@
 name = "helloworld"
 version = "0.1.0"
 description = "Hello World FastAPI example"
-authors = ["DeployPlex Team <hi@deployplex.com>"]
+authors = ["Dosei Team <hi@dosei.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
