@@ -2,7 +2,7 @@
 name = "ai-native-api"
 version = "0.1.0"
 description = "Hello World AI-Native API example with Chroma and Langchain"
-authors = ["DeployPlex Team <hi@deployplex.com>"]
+authors = ["Dosei Team <hi@dosei.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
