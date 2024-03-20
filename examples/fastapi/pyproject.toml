@@ -6,9 +6,10 @@ authors = ["Dosei Team <hi@dosei.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-fastapi = "^0.100.1"
-uvicorn = {extras = ["standard"], version = "^0.23.2"}
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+dosei-sdk = "^0.0.20"
 
 
 [build-system]
