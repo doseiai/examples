@@ -1,4 +1,12 @@
-FROM doseiai/python:3.11
+FROM python:3.11.5
+
+RUN python -m pip install poetry
+
+RUN mkdir -p /usr/src/app
+
+WORKDIR /usr/src/app
+
+ENV POETRY_VIRTUALENVS_CREATE=false
 
 COPY poetry.lock /usr/src/app
 COPY pyproject.toml /usr/src/app
